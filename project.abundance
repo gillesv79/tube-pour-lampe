@@ -59,7 +59,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 2.15
+                    "ioValue": 4.1
                 }
             ],
             "description": "Creates a new circle."
@@ -144,8 +144,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.3430989583333333,
-            "y": 0.14759036144578314,
+            "x": 0.3359375,
+            "y": 0.11445783132530121,
             "uniqueID": 1744380415441,
             "ioValues": [
                 {
@@ -244,7 +244,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1744387323840
                 },
                 {
                     "name": "xDist",
@@ -252,11 +252,11 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0.75
+                    "ioValue": 0.32
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -0.25
+                    "ioValue": 0
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -289,6 +289,13 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1744373511278,
+            "ap2ID": 1744377931481
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "Shape 2",
@@ -351,6 +358,13 @@
             "ap2Primary": true,
             "ap1ID": 1744387134561,
             "ap2ID": 1744387323840
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744387323840,
+            "ap2ID": 1744387525709
         }
     ],
     "unitsKey": "MM",
