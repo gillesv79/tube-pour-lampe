@@ -19,12 +19,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1744372884003,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1744378126728
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -149,8 +144,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.400390625,
-            "y": 0.3885542168674699,
+            "x": 0.37369791666666663,
+            "y": 0.18072289156626506,
             "uniqueID": 1744380415441,
             "ioValues": [
                 {
@@ -163,8 +158,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.50390625,
-            "y": 0.21987951807228914,
+            "x": 0.32747395833333337,
+            "y": 0.4126506024096385,
             "uniqueID": 1744380456788,
             "ioValues": [
                 {
@@ -187,11 +182,11 @@
             "ioValues": [
                 {
                     "name": "geometry2",
-                    "ioValue": ""
+                    "ioValue": 1744380456788
                 },
                 {
                     "name": "geometry1",
-                    "ioValue": ""
+                    "ioValue": 1744378126728
                 }
             ],
             "description": "Subtracts shape two from shape one."
@@ -228,10 +223,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry1",
             "ap2Primary": false,
             "ap1ID": 1744378126728,
-            "ap2ID": 1744372884003
+            "ap2ID": 1744380501567
         },
         {
             "ap1Name": "geometry",
@@ -246,6 +241,13 @@
             "ap2Primary": true,
             "ap1ID": 1744380415441,
             "ap2ID": 1744380456788
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 1744380456788,
+            "ap2ID": 1744380501567
         }
     ],
     "unitsKey": "MM",
