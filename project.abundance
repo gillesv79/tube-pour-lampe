@@ -256,10 +256,36 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": -0.75
+                    "ioValue": -0.25
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.7708333333333333,
+            "y": 0.35542168674698793,
+            "uniqueID": 1744387732409,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
         }
     ],
     "allConnectors": [
