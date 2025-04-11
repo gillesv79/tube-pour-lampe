@@ -4,7 +4,12 @@
     "x": 0,
     "y": 0,
     "uniqueID": 1744372495719,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "name1",
+            "ioValue": 4.1
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -20,8 +25,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.068359375,
-            "y": 0.4969879518072289,
+            "x": 0.13541666666666666,
+            "y": 0.8554216867469879,
             "uniqueID": 1744372949182,
             "ioValues": [
                 {
@@ -34,8 +39,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.18489583333333334,
-            "y": 0.575301204819277,
+            "x": 0.203125,
+            "y": 0.8433734939759037,
             "uniqueID": 1744373429870,
             "ioValues": [
                 {
@@ -44,10 +49,34 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 0.83
+                    "ioValue": -0.83
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Input",
+            "name": "name1",
+            "x": 0.04,
+            "y": 0.5331325301204819,
+            "uniqueID": 1744373511278,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.130859375,
+            "y": 0.3644578313253012,
+            "uniqueID": 1744373531784,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 2.14
+                }
+            ],
+            "description": "Creates a new circle."
         }
     ],
     "allConnectors": [
