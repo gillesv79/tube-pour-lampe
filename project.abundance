@@ -244,7 +244,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1744387323840
+                    "ioValue": ""
                 },
                 {
                     "name": "xDist",
@@ -264,8 +264,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.7708333333333333,
-            "y": 0.35542168674698793,
+            "x": 0.6048177083333333,
+            "y": 0.4608433734939759,
             "uniqueID": 1744387732409,
             "ioValues": [
                 {
@@ -351,13 +351,6 @@
             "ap2Primary": true,
             "ap1ID": 1744387134561,
             "ap2ID": 1744387323840
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1744387323840,
-            "ap2ID": 1744387525709
         }
     ],
     "unitsKey": "MM",
