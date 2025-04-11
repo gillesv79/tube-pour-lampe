@@ -26,14 +26,107 @@
             "atomType": "Input",
             "name": "name1",
             "x": 0.04,
-            "y": 0.5331325301204819,
+            "y": 0.7108433734939759,
             "uniqueID": 1744373511278,
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.08203125,
+            "y": 0.8373493975903615,
+            "uniqueID": 1744377552496,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 4.1
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.22005208333333331,
+            "y": 0.8313253012048193,
+            "uniqueID": 1744377699031,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744377552496
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20898437500000003,
+            "y": 0.42771084337349397,
+            "uniqueID": 1744377759221,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 1744377699031
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5,
+            "y": 0.5,
+            "uniqueID": 1744377819177,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744377759221
+                },
+                {
+                    "name": "height",
+                    "ioValue": 50
+                }
+            ],
+            "description": "Extrudes a 2D shape. Input can be negitive. "
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1744373511278,
+            "ap2ID": 1744377552496
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744377552496,
+            "ap2ID": 1744377699031
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1744377699031,
+            "ap2ID": 1744377759221
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744377759221,
+            "ap2ID": 1744377819177
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
