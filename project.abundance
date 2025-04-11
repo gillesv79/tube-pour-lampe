@@ -204,7 +204,7 @@
                 },
                 {
                     "name": "diameter",
-                    "ioValue": 0.2
+                    "ioValue": 1.32
                 }
             ],
             "description": "Creates a new regular polygon. Corners are on the diameter."
@@ -234,6 +234,32 @@
                 }
             ],
             "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6588541666666667,
+            "y": 0.20180722891566263,
+            "uniqueID": 1744387525709,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1744387323840
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0.75
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -0.75
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -299,6 +325,13 @@
             "ap2Primary": true,
             "ap1ID": 1744387134561,
             "ap2ID": 1744387323840
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1744387323840,
+            "ap2ID": 1744387525709
         }
     ],
     "unitsKey": "MM",
