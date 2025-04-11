@@ -34,35 +34,17 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.21223958333333331,
-            "y": 0.5602409638554217,
-            "uniqueID": 1744372986892,
+            "x": 0.18489583333333334,
+            "y": 0.575301204819277,
+            "uniqueID": 1744373429870,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1744372949182
                 },
                 {
                     "name": "height",
-                    "ioValue": 1744372949182
-                }
-            ],
-            "description": "Extrudes a 2D shape. Input can be negitive. "
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.20833333333333334,
-            "y": 0.23493975903614459,
-            "uniqueID": 1744373046057,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                },
-                {
-                    "name": "height",
-                    "ioValue": 1744372949182
+                    "ioValue": 0.83
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -71,17 +53,10 @@
     "allConnectors": [
         {
             "ap1Name": "geometry",
-            "ap2Name": "height",
-            "ap2Primary": false,
+            "ap2Name": "geometry",
+            "ap2Primary": true,
             "ap1ID": 1744372949182,
-            "ap2ID": 1744372986892
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "height",
-            "ap2Primary": false,
-            "ap1ID": 1744372949182,
-            "ap2ID": 1744373046057
+            "ap2ID": 1744373429870
         }
     ],
     "unitsKey": "MM",
