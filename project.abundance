@@ -111,7 +111,7 @@
         {
             "atomType": "Fusion",
             "name": "Fusion",
-            "x": 0.23893229166666669,
+            "x": 0.24348958333333331,
             "y": 0.5873493975903614,
             "uniqueID": 1744378126728,
             "ioValues": [
@@ -181,12 +181,12 @@
             "uniqueID": 1744380501567,
             "ioValues": [
                 {
-                    "name": "geometry2",
-                    "ioValue": 1744380456788
-                },
-                {
                     "name": "geometry1",
                     "ioValue": 1744378126728
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": 1744380456788
                 }
             ],
             "description": "Subtracts shape two from shape one."
@@ -212,8 +212,8 @@
         {
             "atomType": "Rotate",
             "name": "Rotate",
-            "x": 0.55078125,
-            "y": 0.1716867469879518,
+            "x": 0.544921875,
+            "y": 0.18072289156626506,
             "uniqueID": 1744387323840,
             "ioValues": [
                 {
